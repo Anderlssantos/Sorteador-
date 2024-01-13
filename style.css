@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.logo-atras {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main {
+    position: fixed;
+    text-align: center;
+}
+
+
+
+body {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 500px;
+    height: 300px;
+    margin: 106px auto 126px;
+    display: block;
+    position: relative;
+}
+
+p {
+    font-size: 80px;
+    color: rgb(20, 20, 19);
+    border: rgb(44, 0, 50);
+}
+
+
+
+
+h2 {
+    font-size: 32px;
+    color: #131313;
+    width: 299px;
+    height: 20px;
+
+    margin-top: 10px;
+    margin-bottom: 26px;
+margin-left: 250px;
+
+}
+
+input {
+
+    width: 342px;
+    height: 60px;
+    padding-left: 15px;
+    border-radius: 14px;
+    border: 1px solid rgba(132, 75, 75, 0.272);
+    color: #0b0b0b;
+    background: #ffffff;
+    font-size: 30px;
+    line-height: 47px;
+    cursor: pointer;
+
+
+
+}
+
+.numberDe {
+    margin-right: 62px;
+}
+
+
+
+button {
+    margin: 30px;
+
+    width: 342px;
+    height: 60px;
+    border-radius: 14px;
+    font-size: 30px;
+    line-height: 47px;
+    background: #AEC346;
+    color: #FFF;
+    box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+@media screen and (max-width:790px) {
+   div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .logo {
+        width: 80%;
+        height: auto;
+    }
+    h2{
+        display: none;
+    }
+
+    .div-input {
+      
+      
+        width: 300px;
+        padding: 30px;
+        gap: 5px;
+
+    }
+    button{
+        margin: 5px 30px;
+    }
+
+  
+
+}
